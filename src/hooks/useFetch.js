@@ -7,10 +7,9 @@ export const useFetch = (url) => {
     const [state, setState] = useState({data: null, loading: true, error: null});
 
     useEffect(() => {
-        console.log("hola cargando...")
+        isMounted.current = true;
         return () => {
             isMounted.current = false;
-            console.log("holaaaaaa!!!");
         }
 
     }, []);
