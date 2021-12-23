@@ -5,14 +5,18 @@ import ReactDOM from 'react-dom';
 // import { FormCustomHook } from './components/02-useEffect/FormCustomHook';
 // import { CounterAppCustom } from './components/01-useState/CounterAppCustom';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
-import { MultipleCustomHook } from './components/03-examples/MultipleCustomHook';
+// import { MultipleCustomHook } from './components/03-examples/MultipleCustomHook';
+// import { FocusScreen } from './components/04-useRef/FocusScreen';
+import { ExampleRef } from './components/04-useRef/ExampleRef';
 
 ReactDOM.render(
     // <CounterApp />,
     // <CounterAppCustom />,
     // <SimpleForm />,
     // <FormCustomHook />,
-    <MultipleCustomHook />,
+    // <MultipleCustomHook />,
+    // <FocusScreen />,
+    <ExampleRef />,
     
   document.getElementById('root')
 );
