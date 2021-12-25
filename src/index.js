@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { ExampleRef } from './components/04-useRef/ExampleRef';
 // import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
-import { Memorize } from './components/06-memos/Memorize';
+// import { Memorize } from './components/06-memos/Memorize';
+import { MemoHook } from './components/06-memos/MemoHook';
 
 ReactDOM.render(
     // <CounterApp />,
@@ -20,7 +21,8 @@ ReactDOM.render(
     // <FocusScreen />,
     // <ExampleRef />,
     // <LayoutEffect />,
-    <Memorize />,
+    // <Memorize />,
+    <MemoHook />,
     
   document.getElementById('root')
 );
