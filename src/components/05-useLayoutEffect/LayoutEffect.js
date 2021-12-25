@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useRef} from 'react'
+import React, {useLayoutEffect, useRef, useState} from 'react'
 import { useCounter } from '../../hooks/useCounter';
 import { useFetch } from '../../hooks/useFetch'
 
@@ -12,10 +12,11 @@ export const LayoutEffect = () => {
     const {quote} = !!data && data[0];
 
     const pTag = useRef();
+    const [boxsize, setBoxSize] = useState({});
 
     useLayoutEffect(() => {
-
-        console.log(pTag.current.getBoundingClientRect() );
+        console.log(pTag.current.getBoundingClientRect());
+        setBoxSize(pTag.current.getBoundingClientRect() );
         
     }, [quote]);
 
@@ -31,7 +32,9 @@ export const LayoutEffect = () => {
                 </p>
 
             </blockquote>
-        
+            <pre>
+                { JSON.stringify(boxsize, null, 3) }
+            </pre>
             <button 
                 className="btn btn-success"
                 onClick={increment}

@@ -8,7 +8,8 @@ import ReactDOM from 'react-dom';
 // import { MultipleCustomHook } from './components/03-examples/MultipleCustomHook';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { ExampleRef } from './components/04-useRef/ExampleRef';
-import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
+// import { LayoutEffect } from './components/05-useLayoutEffect/LayoutEffect';
+import { Memorize } from './components/06-memos/Memorize';
 
 ReactDOM.render(
     // <CounterApp />,
@@ -18,7 +19,8 @@ ReactDOM.render(
     // <MultipleCustomHook />,
     // <FocusScreen />,
     // <ExampleRef />,
-    <LayoutEffect />,
+    // <LayoutEffect />,
+    <Memorize />,
     
   document.getElementById('root')
 );
