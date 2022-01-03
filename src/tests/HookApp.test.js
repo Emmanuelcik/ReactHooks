@@ -1,6 +1,6 @@
 import {HookApp} from "../HookApp";
 import {shallow} from "enzyme";
-import "../setupTest";
+import "../setupTests";
 
 describe("Testing <HookApp/>", () => {
 

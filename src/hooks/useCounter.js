@@ -15,10 +15,10 @@ export const useCounter = (initialState = 1) => {
         setstate(initialState);
     }
 
-    return [
+    return {
         counter,
         increment,
         decrement,
         reset,
-    ]
+    }
 }
