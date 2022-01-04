@@ -22,7 +22,6 @@ describe("Testing useFetch", () => {
         await waitForNextUpdate();
 
         const {data, loading, error} = result.current;
-        console.log(data);
         expect( data.length ).toBe(1);
         expect(loading).toBe(false);
         expect(error).toBe(null);

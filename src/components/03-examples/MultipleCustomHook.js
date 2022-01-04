@@ -4,7 +4,7 @@ import { useFetch } from '../../hooks/useFetch'
 
 export const MultipleCustomHook = () => {
 
-    const [counter, increment ] = useCounter(1);
+    const {counter, increment } = useCounter(1);
 
     const url = `https://www.breakingbadapi.com/api/quotes/${counter}`;
 
