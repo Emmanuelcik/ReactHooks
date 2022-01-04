@@ -22,7 +22,7 @@ describe("Testing useFomr", ()=> {
             target: {
                 value: "Eduardo",
                 name: "nombre"
-            }
+            } 
         }
         const {result} = renderHook( () => useForm(initialForm));
         const [ , handleInputChange] = result.current;

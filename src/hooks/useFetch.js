@@ -31,7 +31,14 @@ export const useFetch = (url) => {
                 }else{
                     console.log("set state no se llamó");
                 }
-            });
+            })
+            .catch(err => {
+                setState({
+                    data: null,
+                    loading: false,
+                    error: "something went wrong",
+                });
+            })
 
         // return () => {
         //     cleanup
