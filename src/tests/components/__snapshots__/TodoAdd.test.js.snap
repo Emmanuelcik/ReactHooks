@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TodoAdd Should match the snapshot 1`] = `
+<Fragment>
+  <h4>
+    Agregar ToDo
+  </h4>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="description"
+      onChange={[Function]}
+      placeholder="Aprender..."
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-outline-primary d-block mt-2 col-12"
+      type="submit"
+    >
+      Agregar
+    </button>
+  </form>
+</Fragment>
+`;
