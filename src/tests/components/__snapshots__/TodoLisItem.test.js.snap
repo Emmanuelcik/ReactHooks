@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing en TodoListItem Should be correctly mounted 1`] = `
+<li
+  className="list-group-item"
+>
+  <p
+    className=""
+    onClick={[Function]}
+  >
+    2
+    .- 
+    Aprender mongo
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;
+
+exports[`Testing en TodoListItem Should be correctly mounted 2`] = `
+<li
+  className="list-group-item"
+>
+  <p
+    className=""
+    onClick={[Function]}
+  >
+    2
+    .- 
+    Aprender mongo
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;
